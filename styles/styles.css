@@ -23,7 +23,7 @@
 
 .light-mode {
   --color-primary: #FFFFFF;
-  --color-secondary: #F56692;
+  --color-secondary: #27AE60;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -72,6 +72,7 @@ section {
   transition: all 0.4s ease-in-out;
   background-color: var(--color-primary);
 }
+
 
 .active {
   display: block;
@@ -621,7 +622,7 @@ section {
 /*Independed components*/
 .btn-con {
   display: flex;
-  align-self: flex-start;
+  justify-content: center;
 }
 
 .main-btn {
